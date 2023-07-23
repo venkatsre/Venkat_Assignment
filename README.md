@@ -7,7 +7,7 @@ Kubernetes with Helm Chart/ any equivalent automation with own Dockerfiles for a
 Terraform or any IaC tool with any Configuration Management tool integrated.
 
 ## Table of Contents
-- [Introduction](#Followed Steps)
+- [Followed Steps](#Followed Steps)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
