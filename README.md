@@ -66,7 +66,11 @@ Post Jenkins build cluster output :
 
 Post Jenkins build cluster deployment applicaiton output :
 
-![Screenshot 10](/images/Jenkinsdeployoutput.png)
+![Screenshot 11](/images/Jenkinsdeployoutput.png)
+
+Install the package with in container :
+
+![Screenshot 12](/images/Installpackcontainer.png)
 
 
 ## Contributing
