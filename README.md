@@ -25,7 +25,7 @@ I have followed Mediawiki Installed locally first without Jenkins pipeline with 
 
 ## Evidences for the Install and steps
 
-After minikube Install successfull shows api server and control plane status
+# After minikube Install successfull shows api server and control plane status
 
 ![Screenshot 1](/images/apiserver.png)
 
@@ -36,6 +36,14 @@ Kubernetes API Server authentication:
 After minikube setup kubectl commands output:
 
 ![Screenshot 3](/images/afterclusterkube.png)
+
+Helm manual Install 
+
+![Screenshot 3](/images/helmInstalled_man.png)
+
+Complete deployment status :
+
+![Screenshot 3](/images/kubeInfo.png)
 
 
 
