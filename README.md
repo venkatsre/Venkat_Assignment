@@ -28,7 +28,16 @@ I have followed Mediawiki Installed locally first without Jenkins pipeline with 
 After minikube Install successfull shows api server and control plane status
 
 ![Screenshot 1](/images/apiserver.png)
-![Screenshot 2](/images/screenshot2.png)
+
+Kubernetes API Server authentication:
+
+![Screenshot 2](/images/apiauth.png)
+
+After minikube setup kubectl commands output:
+
+![Screenshot 3](/images/afterclusterkube.png)
+
+
 
 ## Contributing
 
