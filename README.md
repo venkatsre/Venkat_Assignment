@@ -7,7 +7,7 @@ Kubernetes with Helm Chart/ any equivalent automation with own Dockerfiles for a
 Terraform or any IaC tool with any Configuration Management tool integrated.
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [Followed Steps](#introduction)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -15,7 +15,7 @@ Terraform or any IaC tool with any Configuration Management tool integrated.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Followed Steps
 
 I have followed Mediawiki Installed locally first without Jenkins pipeline with command line. Below are the steps are followed.
 
