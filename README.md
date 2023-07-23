@@ -9,9 +9,6 @@ Terraform or any IaC tool with any Configuration Management tool integrated.
 ## Table of Contents
 - [Followedsteps](#followedsteps)
 - [EvidencesInstallandsteps](#evidencesinstallandsteps)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -23,9 +20,9 @@ I have followed Mediawiki Installed locally first without Jenkins pipeline with 
 - Post successful Installed outside of Jenkins, I have Installed Jenkins on Win10 and created a pipeline running through terraform managing variables.tfvars
 
 
-## Evidences Install and steps
+## EvidencesInstallandsteps
 
-# After minikube Install successfull shows api server and control plane status
+### After minikube Install successfull shows api server and control plane status
 
 ![Screenshot 1](/images/apiserver.png)
 
