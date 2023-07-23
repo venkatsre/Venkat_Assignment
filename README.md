@@ -1,9 +1,10 @@
 "# Assignment_Thoughtwors" 
 
 
-# Project Name
+# MEDIAWIKI PROBLEM STATEMENT
 
-Brief description of the project.
+Kubernetes with Helm Chart/ any equivalent automation with own Dockerfiles for application and database.
+Terraform or any IaC tool with any Configuration Management tool integrated.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,28 +15,19 @@ Brief description of the project.
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Followed Steps
 
-A short introduction to your project. Explain what it does and why it's useful or interesting.
+I have followed Mediawiki Installed locally first without Jenkins pipeline with command line. Below are the steps are followed.
 
-## Features
+- Installed Minikube , kubectl and helm on my local windows10 machine to use as a Virtual Box.
+- Post successful Installed outside of Jenkins, I have Installed Jenkins on Win10 and created a pipeline running through terraform managing variables.tfvars
 
-- List some key features of your project.
-- You can use bullet points for clarity.
 
-## Installation
+## Evidences for the Install and steps
 
-Instructions on how to install and set up the project on a user's local machine.
+After minikube Install successfull shows api server and control plane status
 
-## Usage
-
-Provide examples or describe how to use your project. Code snippets and explanations are helpful.
-
-## Screenshots
-
-Include screenshots of your project to showcase its appearance or functionality.
-
-![Screenshot 1](/images/screenshot1.png)
+![Screenshot 1](/images/apiserver.png)
 ![Screenshot 2](/images/screenshot2.png)
 
 ## Contributing
