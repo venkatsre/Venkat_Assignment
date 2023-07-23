@@ -39,12 +39,37 @@ After minikube setup kubectl commands output:
 
 Helm manual Install 
 
-![Screenshot 3](/images/helmInstalled_man.png)
+![Screenshot 4](/images/helmInstalled_man.png)
+
+
+![Screenshot 5](/images/kubeInfo.png)
 
 Complete deployment status :
 
-![Screenshot 3](/images/kubeInfo.png)
+![Screenshot 6](/images/compdeply.png)
 
+Validate deployment accessing application :
+
+![Screenshot 7](/images/validatedeploy.png)
+
+Jenkins setup on local machine :
+
+![Screenshot 8](/images/jenkinssetup.png)
+
+Jenkins console output has been attached In the repo:
+
+Jenkins config :
+
+![Screenshot 9](/images/Jenkin_settings.png)
+
+Post Jenkins build cluster output :
+
+![Screenshot 10](/images/Jenkinsbuildclusterout.png)
+
+
+Post Jenkins build cluster deployment applicaiton output :
+
+![Screenshot 10](/images/Jenkinsdeployoutput.png)
 
 
 ## Contributing
