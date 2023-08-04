@@ -42,8 +42,6 @@ Custom MariaDB details:
 
 Push Docker images to Hub:
 
-![Screenshot 6](/images/dockerpush.png)
-
 ![Screenshot 6](/images/dockerhubimages.png)
 
 Jfrog CLI Install
