@@ -1,0 +1,25 @@
+# Use a Red Hat-based base image
+FROM registry.access.redhat.com/ubi8/ubi
+
+# Install necessary dependencies for MediaWiki
+RUN dnf -y install httpd php php-mysqlnd
+
+# Copy the custom httpd.conf file to /etc/httpd/conf
+COPY httpd.conf /etc/httpd/conf
+
+# Set the working directory to /home/venkat
+WORKDIR /home/venkat
+
+# Download MediaWiki tarball
+RUN curl -o mediawiki.tar.gz -SL https://releases.wikimedia.org/mediawiki/1.40/mediawiki-1.40.0.tar.gz
+
+# Extract and move the files to /var/www
+RUN tar -zxf mediawiki.tar.gz -C /var/www \
+    && ln -s /var/www/mediawiki-1.40.0 /var/www/mediawiki \
+    && chown -R apache:apache /var/www/mediawiki
+
+# Expose the container's port (e.g., 80 for Apache)
+EXPOSE 80
+
+# Start Apache web server
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]

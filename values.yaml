@@ -1,0 +1,10 @@
+image:
+  repository: venkattoluchuri/my_custom_image_db
+  tag: latest
+  pullPolicy: IfNotPresent
+
+image:
+  repository: venkattoluchuri/my_custom_image_wiki
+  tag: latest
+  port: 80
+  pullPolicy: IfNotPresent

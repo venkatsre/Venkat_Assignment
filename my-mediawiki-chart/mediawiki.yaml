@@ -1,0 +1,19 @@
+# my-mediawiki-chart/templates/mediawiki-deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mediawiki-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mediawiki
+  template:
+    metadata:
+      labels:
+        app: mediawiki
+    spec:
+      containers:
+        - name: mediawiki
+          image: {{ .Values.mediawiki.image }}
+          # Add other container configurations

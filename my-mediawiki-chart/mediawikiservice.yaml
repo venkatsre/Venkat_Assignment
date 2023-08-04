@@ -1,0 +1,13 @@
+# my-mediawiki-chart/templates/mediawiki-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: mediawiki-service
+spec:
+  selector:
+    app: mediawiki
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  # Add other Service configurations
