@@ -48,6 +48,10 @@ Jfrog CLI Install
 
 ![Screenshot 6](/images/jfroginstall.png)
 
+Jfrog Artifactory Helm repo details
+
+![Screenshot 6](/images/jfrogartifactory.png)
+
 Use Helm to create a template and customize with values.yaml file to create Helm package. Create a Helm package and push to Jfrog Artifactory
 
 ![Screenshot 7](/images/helmpackagepush.png)
